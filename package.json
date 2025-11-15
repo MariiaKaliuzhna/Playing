@@ -2,8 +2,7 @@
   "name": "Playing",
   "description": "pom with wdio",
   "version": "0.0.1",
-  "private": false,  
-  "type": "module",
+  "private": false,
   "devDependencies": {
     "@wdio/cli": "^9.20.0",
     "@wdio/local-runner": "^9.20.0",
