@@ -1,5 +1,8 @@
 {
   "name": "Playing",
+  "description": "pom with wdio",
+  "version": "0.0.1",
+  "private": false,  
   "type": "module",
   "devDependencies": {
     "@wdio/cli": "^9.20.0",
@@ -8,6 +11,6 @@
     "@wdio/spec-reporter": "^9.20.0"
   },
   "scripts": {
-    "wdio": "wdio run ./wdio.conf.js"
+    "test" : "wdio run src/config/wdio.conf.js"
   }
 }
